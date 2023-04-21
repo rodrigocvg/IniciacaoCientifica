@@ -1,0 +1,29 @@
+float distancia(obj1,obj2) {
+  float d1 = obj1["box"]["box"][0]-obj2["box"]["box"][0]
+  float d2 = obj1["box"]["box"][1]-obj2["box"]["box"][1]
+  float d3 = obj1["box"]["box"][2]-obj2["box"]["box"][2]
+  float d4 = obj1["box"]["box"][3]-obj2["box"]["box"][3]  
+  return sqrt(d1+d2+d3+d4);
+}
+
+
+distanciaeMergeExemplo.txtvoid merge(obj1,DictionaryFinal) {
+    dictionaryClassId = DictionaryFinal[obj1.classId]
+    if (dictionaryClassId == NULL) {
+       cria nova entrada no DictionaryFinal e coloca obj1
+    }else {
+      float menorDistancia = distancia(obj1,dictionaryClassId[0]);
+      Obj menorDistObj = dictionaryClassId[0];    
+      for (i=0;i<dictionaryClassId.size;i++){
+          float di = distancia(obj1,dictionaryClassId[i]);
+          if (di < menorDistancia) {
+             menorDistancia = di;
+             menorDistObj = dictionaryClassId[i];  
+          }
+      }
+       if (menorDistancia <= limiar)
+          unir obj com o menorDistObj;
+       else
+          cria uma nova entrada com o obj no dictionaryClassId;
+    }
+}
