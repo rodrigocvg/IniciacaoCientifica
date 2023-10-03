@@ -1,1 +1,0 @@
-add tudo no dic, fazer merge a cada frame e dar pop

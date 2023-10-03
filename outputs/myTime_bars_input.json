@@ -1,0 +1,86 @@
+[
+    {
+        "label": "person0",
+        "start": 0.0,
+        "finish": null,
+        "meeting": 0
+    },
+    {
+        "label": "person1",
+        "start": 0.0,
+        "finish": null,
+        "meeting": 0
+    },
+    {
+        "label": "person2",
+        "start": 0.0,
+        "finish": 0.08341666666666667,
+        "meeting": 0
+    },
+    {
+        "label": "traffic light10",
+        "start": 0.08341666666666667,
+        "finish": 0.16683333333333333,
+        "meeting": 0
+    },
+    {
+        "label": "person15",
+        "start": 0.16683333333333333,
+        "finish": 0.20854166666666665,
+        "meeting": 0
+    },
+    {
+        "label": "person19",
+        "start": 0.20854166666666665,
+        "finish": 0.25025,
+        "meeting": 0
+    },
+    {
+        "label": "person21",
+        "start": 0.25025,
+        "finish": 0.33366666666666667,
+        "meeting": 0
+    },
+    {
+        "label": "chair32",
+        "start": 0.33366666666666667,
+        "finish": 0.6673333333333333,
+        "meeting": 0
+    },
+    {
+        "label": "suitcase45",
+        "start": 0.6673333333333333,
+        "finish": 0.7507499999999999,
+        "meeting": 0
+    },
+    {
+        "label": "traffic light50",
+        "start": 0.7507499999999999,
+        "finish": 0.9175833333333333,
+        "meeting": 0
+    },
+    {
+        "label": "person58",
+        "start": 0.9175833333333333,
+        "finish": 1.1261249999999998,
+        "meeting": 0
+    },
+    {
+        "label": "person75",
+        "start": 1.1261249999999998,
+        "finish": 1.2929583333333332,
+        "meeting": 0
+    },
+    {
+        "label": "person89",
+        "start": 1.2929583333333332,
+        "finish": 1.4597916666666666,
+        "meeting": 0
+    },
+    {
+        "label": "person106",
+        "start": 1.4597916666666666,
+        "finish": 2.6693333333333333,
+        "meeting": 0
+    }
+]

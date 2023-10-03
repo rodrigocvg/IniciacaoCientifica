@@ -1,0 +1,9 @@
+for classIds in Dicio[str(classid+1)]:
+            print(classIds.get(idObj))
+            for frameBox in classIds.get(idObj):
+                frameBoxTratado = str(frameBox.get(str(frameI)))
+                tiraVirgula = frameBoxTratado.replace(",","")
+                #print(frameBox.get(str(frameI)),box)
+                if(tiraVirgula == str(box)):
+                    print(tiraVirgula,str(box))
+                    text = frameBox.keys()
