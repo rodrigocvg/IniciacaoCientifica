@@ -1,15 +1,4 @@
-# def merge(latu):  #merge(lof,latu)
-   # lof = {box,class_names[classid]}
-  #  limiar = 20
-   # for (class_names[classid]) in latu:
-    #    listaObj = buscarPorClassid(lof[1][0],class_names[classid])    # fazer buscaPorClassid
-     #   if listaObj != [] :
-     #       for i in range(i,listaObj):
-     #           menorDist = menorDistancia(lof,latu)    #menorDistancia(lof.box, latu.box)
-      #          if menorDist <= limiar:
-       #             print("1")
-                    #lof[1] = class_names[classid]
-   # return lof
+
 def merge(obj1,DictionaryFinal,classId):
     dictionaryClassId = DictionaryFinal[classId]
     if (dictionaryClassId is None):
@@ -37,9 +26,6 @@ def merge(obj1,DictionaryFinal,classId):
         DictionaryFinal.append(obj1)
         print('nova entradaw')
 
-
-    
-#lista
 def menorDistancia4(obj1,obj2):
     Umx1 = obj1["box"]["box"][0]
     Umx2 = obj1["box"]["box"][2]
@@ -64,8 +50,6 @@ def menorDistancia4(obj1,obj2):
 
     return dist
     
-
-
 # def buscaPorClassid(lof,class_names):
 #DicDetcOfic[9][0]["box"]["box"][0] = x1
 #Parametros = Dicionario, classid, i e j = objetos que serão comparados
@@ -91,8 +75,6 @@ def menorDistancia3(DicDetcOfic,classid,i,j):
     return dist
 
 
-#mudar menorDistancia para Dicionario
-
 def menorDistancia(lof,latu):   
     #retornar de quem é a menor distancia tb
     #CentroLofX = x2 - x1/2 
@@ -110,7 +92,6 @@ def menorDistancia(lof,latu):
    #dist = math.sqrt((lof[0][0] - lof[0][1])^2 + (latu[0][0] - latu[0][1])^2)   # provavel errado
    return dist
 
-
 def menorDistancia2(lof,latu):
     x1lof = lof[0][0] 
     y1lof = lof[0][1]
@@ -124,13 +105,7 @@ def menorDistancia2(lof,latu):
     CentroLatu = math.sqrt((x1latu - x2latu)^2 + (y1latu - y2latu)^2)
     dist = CentroLof - CentroLatu
     return dist
-
  
-
-#dicionario = chave = classnames[class id]
-#             valor = listaObj
-
-
 def menorDistancia5(obj1,obj2):
     Umx1 = obj1["box"]["box"][0]
     Umx2 = obj1["box"]["box"][2]
@@ -189,7 +164,6 @@ def menorDistancia5(obj1,obj2):
         #print(menorDistancia4(DicDetcOfic[9][0],DicDetcOfic[9][1]))
         #print(merge(DicDetcOfic)) 
 
-for i in Dicio[classid+1]: #elementos tipo
     #print("i",i)
     for j in i.values():
         #print("j",j)
