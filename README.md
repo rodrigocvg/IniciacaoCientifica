@@ -11,24 +11,19 @@ Instruções de Uso:
 
 Execute o script com o comando python detect_track.py video.mp4.
 Substitua "video.mp4" pelo caminho do vídeo desejado.
-Visualização Temporal (visualize_temporal.py):
+
+O que faz?
 
 Carrega o arquivo JSON gerado na etapa anterior.
 Utiliza as informações para criar uma representação visual temporal das detecções no vídeo.
 Cada objeto é representado por uma barra horizontal, indicando o tempo em que o objeto esteve presente no vídeo.
-Instruções de Uso:
 
-Execute o script com o comando python visualize_temporal.py.
-O script utilizará o arquivo de detecções gerado anteriormente.
-Exportação de Dados (export_data.py):
+Exportação de Dados:
 
 Carrega o arquivo JSON de detecções.
 Converte as informações para um formato desejado, a ser utilizado em outros contextos.
 Exporta os dados para um novo arquivo JSON.
-Instruções de Uso:
 
-Execute o script com o comando python export_data.py.
-O script utilizará o arquivo de detecções gerado anteriormente.
 Dependências:
 OpenCV
 Numpy
